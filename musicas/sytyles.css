@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 940px;
+    max-height: 50px;
+
+    margin: 0 auto;
+    padding: 20px 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 7%;
+    min-width: 60px;
+    margin-right: 40px;
+}
+
+.links a {
+    margin: 0 20px;
+    padding: 10px 7px;
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.links a:hover {
+    border-radius: 5px;
+    background-color: rgb(238, 6, 6);
+    box-shadow: 1px 1px 3px rgb(238, 6, 6);
+    color: white;
+
+    transition: 250ms;
+}
+
+.title {
+    max-width: 450px;
+
+    margin: 50px auto;
+    text-align: center;
+}
+
+.title h1 {
+    color: black;
+    font-size: 35px;
+}
+
+.movies {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.movie {
+    max-width: 300px;
+    height: 100%;
+    display: flex;
+
+    background-color: rgba(240, 240, 240, 0.925);
+    border-radius: 7px;
+
+}
+
+.card_image {
+    width: 50%;
+    height: 280px;
+}
+
+.card_image img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 7px;
+}
+
+.card_info {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+
+    padding: 7px;
+}
+
+.card_info p {
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.397);
+
+    text-align: left;
+}
+
+.card_title {
+    color: black;
+    margin: 30px 0 1px;
+}
+
+.whatch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+    margin-bottom: 5px;
+    padding: 10px 10px 10px 7px;
+}
+
+.whatch a {
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(255, 21, 21);
+}
+
+.whatch a:hover {
+    box-shadow: 1px 1px 3px rgb(255, 21, 21);
+    filter: brightness(95%);
+
+    transition: 350ms;
+}
+
+.whatch p {
+    color: black;
+    font-weight: normal;
+}
+
+/* DESCRIPTIONS */
+
+.card_title_desc {
+    color: black;
+    margin: 5px 0 ;
+}
+
+.mus_desc {
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+    border: 3px solid rgb(255, 32, 32);
+    border-radius: 20px;
+}
+
+.mus_desc p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.mus_desc img {
+    width: 60%;
+    max-height: 200px;
+    border-radius: 20px;
+
+    margin-bottom: 10px;
+}
+
+.botton {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 3px solid rgb(255, 32, 32);
+    cursor: pointer;
+
+    padding: 7px;
+    margin-top: 100px;
+}
+
+.botton:hover {
+    color: white;
+    background-color: rgb(255, 32, 32);
+    box-shadow: 1px 1px 7px rgb(255, 32, 32);
+
+    transition: 350ms;
+}
+
+/* Bands */
+
+.card_image.curiosite {
+    width: 50%;
+    height: 50%;
+
+    margin: 50px 5px 0;
+}
+
+#know {
+    max-width: 200px;
+    margin: 20px auto 40px;
+}
